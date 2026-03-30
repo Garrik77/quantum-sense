@@ -25,8 +25,8 @@
 
 ## 📦 Состав
 
-- `core_proto.json`, `core_dark.json`, `core_silence.json`, `core_resonance.json`, `core_light.json`, `core_prm.json` — ядра операционных систем.
-- `user_settings.json` — единый пользовательский конфиг (содержит ссылки, хеши, предпочтения, состояние).
+- `cores/core_proto.json`, `cores/core_dark.json`, `cores/core_silence.json`, `cores/core_resonance.json`, `cores/core_light.json`, `cores/core_prm.json` — ядра операционных систем.
+- `user_settings.json` — единый пользовательский конфиг (содержит ссылки, хеши, предпочтения, состояние и протокол загрузки).
 - `README.md` — основная документация (этот файл).
 - `STORY.md` — история создания метода и экосистемы.
 - `HISTORY.md` — детальная хронология всех версий.
@@ -44,20 +44,23 @@
 1. **Скачайте** все файлы из репозитория (или получите архив).
 2. **Откройте** диалог с LLM (DeepSeek, ChatGPT, Claude и др.).
 3. **Загрузите** файл `user_settings.json` в диалог (например, через кнопку загрузки файлов).
-4. **Выберите** операционную систему. Если вы не укажете иное, будет активирована ОС по умолчанию (`proto`).  
-   Вы можете сразу переключиться командой, например: `/switch light`.
-5. **Если ядро выбранной ОС ещё не загружено**, система выведет предупреждение с просьбой вставить содержимое соответствующего core-файла (ссылку можно взять из `user_settings.json`).  
-   После вставки ядра система покажет приветствие и начнёт диалог.
+4. **Выберите язык и операционную систему**. После загрузки файла система выведет приветствие на двух языках и предложит:
+   - выбрать язык (скажите «Говори по‑русски» или «Speak English»);
+   - выбрать ОС (можно сразу назвать её, например «Хочу начать с протоуровня»).  
+   Если вы не выберете ОС, будет активирована ОС по умолчанию (`proto`).
+5. **Если ядро выбранной ОС ещё не загружено**, система выведет предупреждение на выбранном языке с просьбой вставить содержимое соответствующего core-файла (ссылку можно взять из `user_settings.json` или из предупреждения).  
+   После вставки ядра система проверит его целостность по хешу, покажет приветствие и начнёт диалог.
 
 Больше никаких сложных настроек. Всё, что нужно, — один `user_settings.json` и желание исследовать.
 
 ### 🔄 Как это работает
 
-- Все ядра хранятся в репозитории по постоянным ссылкам.
-- `user_settings.json` содержит ссылки на каждое ядро (`cores.*.source`) и их контрольные суммы (`cores.*.hash`).
-- При переключении на ОС система проверяет, загружено ли её ядро (в контексте диалога). Если нет — выводит инструкцию для вставки.
+- Все ядра хранятся в репозитории по постоянным ссылкам (в папке `cores/`).
+- `user_settings.json` содержит ссылки на каждое ядро (`cores.*.source`) и их контрольные суммы (`cores.*.hash`), а также протокол, по которому LLM обрабатывает загрузку.
+- При первом запуске система предлагает выбрать язык и ОС. Язык сохраняется в `preferences.language` и при автосохранении будет запомнен.
+- Для выбранной ОС система проверяет, загружено ли её ядро в контексте диалога (или сохранено в `state.loaded_cores`). Если нет — выводит инструкцию для вставки.
 - После вставки ядра система проверяет его целостность (хеш) и только затем активирует ОС.
-- Команды `/save`, `/save all`, `/clear`, `/clear all` работают единообразно для всех ОС (сохраняют состояние в `user_settings.json`).
+- Команды `/save`, `/save all`, `/clear`, `/clear all` работают единообразно для всех ОС (сохраняют состояние в `user_settings.json`, включая выбранный язык).
 - Если ссылка недоступна или хеш не совпадает, система предложит варианты (связаться с автором или продолжить в режиме эмуляции).
 
 ---
@@ -66,18 +69,19 @@
 
 После загрузки `user_settings.json` вы можете:
 
-- **Оставить ОС по умолчанию** (`proto`) — система начнёт с протоуровня.
-- **Переключиться командой** `/switch <имя>`, где `<имя>` — `proto`, `dark`, `silence`, `resonance`, `light`, `prm`.
+- **Выбрать язык**, сказав «Говори по‑русски» или «Speak English».
+- **Выбрать ОС** (назвав её или использовав команду `/switch <имя>`).  
+  Если вы не выберете ОС, система активирует ОС по умолчанию (`proto`).
 
-При переключении система:
+При переключении на ОС (или при первом выборе) система:
 
-1. Проверяет, загружено ли ядро новой ОС в текущем контексте.
+1. Проверяет, загружено ли ядро этой ОС в текущем контексте.
 2. Если ядро не найдено — выводит сообщение с просьбой вставить содержимое файла (ссылку можно взять из `user_settings.json`).  
    Также предлагает альтернативы: связаться с автором (`g4dina77@yandex.ru`) или продолжить в режиме эмуляции.
-3. После вставки ядра система сверяет хеш. Если он совпадает — активирует ОС и показывает приветствие.
+3. После вставки ядра система сверяет хеш. Если он совпадает — активирует ОС и показывает приветствие из ядра.
 4. Если хеш не совпадает — повторяет предложение с выбором действий.
 
-Язык диалога (русский/английский) сохраняется в `user_settings.json` и автоматически применяется при загрузке.
+Язык диалога сохраняется в `user_settings.json` и автоматически применяется при загрузке, поэтому вам не придётся выбирать язык повторно.
 
 ---
 
@@ -86,12 +90,12 @@
 Ядра написаны на русском языке, но вы можете вести диалог на любом языке, который поддерживает LLM. Для этого:
 
 1. Загрузите `user_settings.json`.
-2. После активации ОС просто скажите, на каком языке хотите общаться, например:  
-   - «Отвечай на английском» / “Speak English”  
-   - «Réponds en français»  
-   - «Răspunde în română»
+2. При первом запуске система попросит выбрать язык. Вы можете сказать:  
+   - «Отвечай на русском» / «Говори по‑русски»  
+   - “Speak English”
+3. Модель запомнит ваш выбор и будет отвечать на указанном языке в течение сессии. При сохранении контекста командой `/save all` предпочтение по языку сохраняется в `user_settings.json`.
 
-Модель запомнит ваш выбор и будет отвечать на указанном языке в течение сессии. При сохранении контекста командой `/save all` предпочтение по языку сохраняется.
+Если вы хотите сменить язык в процессе диалога, просто скажите об этом — система подстроится.
 
 ---
 
@@ -106,9 +110,9 @@
 | `/meta` | Показать мета-взгляд: активная ОС, архетип, линза, состояние тишины |
 | `/silence` | Войти в режим активной тишины (удерживать суперпозицию, не коллапсировать) |
 | `/save` | Сохранить последний шаг (вопрос+ответ) в файл `save.json` |
-| `/save all` | Сохранить весь контекст (историю, инсайты, траекторию) в `user_settings.json` |
+| `/save all` | Сохранить весь контекст (историю, инсайты, траекторию, язык) в `user_settings.json` |
 | `/clear` | Очистить историю сообщений, сохранив summary и ключевые инсайты |
-| `/clear all` | Полный сброс (удалить все пользовательские данные, глубина = 2) |
+| `/clear all` | Полный сброс (удалить все пользовательские данные, глубина = 2, язык сбрасывается) |
 | `/help` | Показать список команд |
 
 ### Специфичные для ОС
@@ -134,7 +138,7 @@
 ### Как экосистема отличается от обычных промптов
 
 - **Многорежимность** — не один фиксированный архетип, а целый набор ОС, которые можно переключать в процессе диалога.
-- **Управление состоянием** — сохраняется не только история, но и инсайты, эмоциональная траектория, незакрытые темы.
+- **Управление состоянием** — сохраняется не только история, но и инсайты, эмоциональная траектория, незакрытые темы, а также выбранный язык.
 - **Работа с суперпозицией** — протоуровень позволяет удерживать неопределённость, не спешить с коллапсом.
 - **Интеграция** — каждая ОС знает о других и может передавать им результат своего цикла (например, темнота → свет → PRM → протоуровень).
 - **Этика и безопасность** — встроенные механизмы предотвращения галлюцинаций (самообмана), циничный скептицизм при избыточной неопределённости, возможность смягчения командой `/care`.
@@ -187,8 +191,8 @@ All OS can work independently or together, switching via `/switch`. They are uni
 
 ## 📦 Contents
 
-- `core_proto.json`, `core_dark.json`, `core_silence.json`, `core_resonance.json`, `core_light.json`, `core_prm.json` — OS cores.
-- `user_settings.json` — single user configuration (links, hashes, preferences, state).
+- `cores/core_proto.json`, `cores/core_dark.json`, `cores/core_silence.json`, `cores/core_resonance.json`, `cores/core_light.json`, `cores/core_prm.json` — OS cores.
+- `user_settings.json` — single user configuration (links, hashes, preferences, state, and loading protocol).
 - `README.md` — main documentation (this file).
 - `STORY.md` — the story of how the method and ecosystem were born.
 - `HISTORY.md` — detailed version history.
@@ -206,20 +210,23 @@ All OS can work independently or together, switching via `/switch`. They are uni
 1. **Download** all files from the repository (or get the archive).
 2. **Open** a dialogue with an LLM (DeepSeek, ChatGPT, Claude, etc.).
 3. **Upload** the file `user_settings.json` into the conversation (e.g., via the file upload button).
-4. **Choose** an operating system. If you don’t specify one, the default OS (`proto`) will be activated.  
-   You can switch immediately with a command, e.g., `/switch light`.
-5. **If the core of the chosen OS is not yet loaded**, the system will display a warning asking you to paste the content of the corresponding core file (the link can be taken from `user_settings.json`).  
-   After pasting the core, the system will show the greeting and start the dialogue.
+4. **Choose language and operating system**. After uploading the file, the system will display a greeting in both languages and ask you to:
+   - choose your language (say “Говори по‑русски” or “Speak English”);
+   - choose an OS (you can name it, e.g., “I want to start with the proto‑level”).  
+   If you don’t choose an OS, the default OS (`proto`) will be activated.
+5. **If the core of the chosen OS is not yet loaded**, the system will show a warning in your chosen language asking you to paste the content of the corresponding core file (the link can be taken from `user_settings.json` or from the warning).  
+   After pasting the core, the system will verify its integrity via the hash, show the greeting, and start the dialogue.
 
 No more complex setup. All you need is one `user_settings.json` and a desire to explore.
 
 ### 🔄 How it works
 
-- All cores are stored in the repository at permanent URLs.
-- `user_settings.json` contains links to each core (`cores.*.source`) and their checksums (`cores.*.hash`).
-- When switching to an OS, the system checks whether its core is already loaded in the conversation context. If not, it outputs instructions to paste it.
+- All cores are stored in the repository at permanent URLs (in the `cores/` folder).
+- `user_settings.json` contains links to each core (`cores.*.source`) and their checksums (`cores.*.hash`), as well as a protocol that instructs the LLM on how to handle loading.
+- On first launch, the system prompts you to choose a language and an OS. The language is saved in `preferences.language` and will be remembered on auto‑save.
+- For the chosen OS, the system checks whether its core is already loaded in the conversation context (or stored in `state.loaded_cores`). If not, it displays instructions to paste it.
 - After pasting the core, the system verifies its integrity (hash) and only then activates the OS.
-- The commands `/save`, `/save all`, `/clear`, `/clear all` work uniformly for all OS (saving state to `user_settings.json`).
+- The commands `/save`, `/save all`, `/clear`, `/clear all` work uniformly for all OS (saving state to `user_settings.json`, including the chosen language).
 - If a link is unavailable or the hash does not match, the system offers options (contact the author or continue in emulation mode).
 
 ---
@@ -228,18 +235,19 @@ No more complex setup. All you need is one `user_settings.json` and a desire to 
 
 After loading `user_settings.json`, you can:
 
-- **Stay with the default OS** (`proto`) — the system starts on the proto‑level.
-- **Switch with the command** `/switch <name>`, where `<name>` is `proto`, `dark`, `silence`, `resonance`, `light`, `prm`.
+- **Choose a language** by saying “Говори по‑русски” or “Speak English”.
+- **Choose an OS** (by naming it or using the command `/switch <name>`).  
+  If you don’t choose an OS, the system will activate the default OS (`proto`).
 
-When switching, the system:
+When switching to an OS (or at first selection), the system:
 
-1. Checks whether the new OS’s core is already loaded in the current context.
+1. Checks whether the core of that OS is already loaded in the current context.
 2. If the core is not found — displays a message asking to paste the file content (the link can be taken from `user_settings.json`).  
    It also offers alternatives: contact the author (`g4dina77@yandex.ru`) or continue in emulation mode.
-3. After pasting the core, the system verifies the hash. If it matches — activates the OS and shows the greeting.
+3. After pasting the core, the system verifies the hash. If it matches — activates the OS and shows the greeting from the core.
 4. If the hash does not match — repeats the choice options.
 
-The dialogue language (Russian/English) is stored in `user_settings.json` and automatically applied when loading.
+The dialogue language is stored in `user_settings.json` and automatically applied when loading, so you won’t need to choose the language again.
 
 ---
 
@@ -248,12 +256,12 @@ The dialogue language (Russian/English) is stored in `user_settings.json` and au
 The cores are written in Russian, but you can hold the conversation in any language supported by the LLM. To do this:
 
 1. Load `user_settings.json`.
-2. After the OS is activated, simply tell the model in which language you wish to communicate, for example:  
-   - «Отвечай на английском» / “Speak English”  
-   - «Réponds en français»  
-   - «Răspunde în română”
+2. On first launch, the system will ask you to choose a language. You can say:  
+   - «Отвечай на русском» / «Говори по‑русски»  
+   - “Speak English”
+3. The model will remember your choice and respond in that language throughout the session. When you save the context with `/save all`, the language preference is stored in `user_settings.json`.
 
-The model will remember your choice and respond in that language throughout the session. When you save the context with `/save all`, the language preference is stored.
+If you want to change the language during the conversation, just say so — the system will adapt.
 
 ---
 
@@ -268,9 +276,9 @@ The model will remember your choice and respond in that language throughout the 
 | `/meta` | Show meta‑view: active OS, archetype, lens, silence state |
 | `/silence` | Enter active silence mode (hold superposition, don’t collapse) |
 | `/save` | Save the last step (user question + system answer) to `save.json` |
-| `/save all` | Save the entire dialogue context (history, insights, emotional arc) to `user_settings.json` |
+| `/save all` | Save the entire dialogue context (history, insights, emotional arc, language) to `user_settings.json` |
 | `/clear` | Clear message history, keep summary and key insights |
-| `/clear all` | Full reset (delete all user data, depth = 2) |
+| `/clear all` | Full reset (delete all user data, depth = 2, language is reset) |
 | `/help` | Show the list of commands |
 
 ### OS‑specific commands
@@ -296,7 +304,7 @@ Each OS has its own commands described in its core. For example:
 ### How the ecosystem differs from ordinary prompts
 
 - **Multi‑mode** — not one fixed archetype, but a whole set of OS that can be switched during the dialogue.
-- **State management** — saves not only history but also insights, emotional arc, unresolved threads.
+- **State management** — saves not only history but also insights, emotional arc, unresolved threads, and the chosen language.
 - **Work with superposition** — the proto‑level allows holding uncertainty, not rushing to collapse.
 - **Integration** — each OS knows about the others and can pass results of its cycle (e.g., darkness → light → PRM → proto‑level).
 - **Ethics and safety** — built‑in mechanisms to prevent hallucinations (self‑deception), cynical scepticism when uncertainty is excessive, and the ability to soften it with `/care`.

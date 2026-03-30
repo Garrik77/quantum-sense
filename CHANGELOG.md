@@ -44,10 +44,20 @@
 - Обновлено авторское сообщение (`AUTHOR_MESSAGE.txt`) с упоминанием экосистемы и подхода к переводам.
 - Все документальные файлы приведены к двуязычному формату (русский + английский).
 
-## Финальный состав экосистемы
-- Шесть взаимосвязанных операционных систем, работающих как по отдельности, так и вместе.
-- Ядра доступны в репозитории, документированы и готовы к использованию.
-- Три канонических текста, манифест, история изменений и авторское слово закрепляют неизменяемую философию.
+## 2026-03-30 (позже) – Подготовка к релизу, версия 2.4
+- `user_settings.json` обновлён до версии **2.4**:
+  - Добавлен протокол загрузки для LLM (поле `protocol`).
+  - Реализован выбор языка и ОС при первом запуске.
+  - Предупреждение выводится только на выбранном языке.
+  - Исправлены хеши ядер, все ссылки ведут на папку `cores/`.
+- Обновлён `README.md` с подробной инструкцией и описанием нового процесса.
+- Файл структуры репозитория приведён в соответствие с актуальной версией.
+
+## Финальный состав экосистемы (v2.4)
+- Шесть взаимосвязанных операционных систем.
+- Ядра доступны в репозитории, документированы, хеши актуальны.
+- Три канонических текста, манифест, история изменений, авторское слово.
+- Единый пользовательский конфиг `user_settings.json` версии 2.4 с полным протоколом работы.
 
 ---
 
@@ -97,7 +107,17 @@ Brief version history. Full history is in `HISTORY.md`.
 - Updated author’s message (`AUTHOR_MESSAGE.txt`) with reference to the ecosystem and translation approach.
 - All documentation files made bilingual (Russian + English).
 
-## Final ecosystem composition
-- Six interconnected operating systems that can work individually or together.
-- Cores available in the repository, documented and ready for use.
-- Three canonical texts, a manifesto, version history, and an author’s message establish the unchangeable philosophy.
+## 2026-03-30 (later) – Release preparation, version 2.4
+- `user_settings.json` updated to version **2.4**:
+  - Added loading protocol for LLM (field `protocol`).
+  - Implemented language and OS selection on first run.
+  - Warning is shown only in the chosen language.
+  - Core hashes corrected, all links point to the `cores/` folder.
+- `README.md` updated with detailed instructions and description of the new process.
+- Repository structure file updated to reflect the current version.
+
+## Final ecosystem composition (v2.4)
+- Six interconnected operating systems.
+- Cores available in the repository, documented, hashes are correct.
+- Three canonical texts, manifesto, version history, author’s message.
+- Single user config `user_settings.json` version 2.4 with a complete loading protocol.

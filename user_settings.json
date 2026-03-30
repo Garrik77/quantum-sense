@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "version": "2.2",
+    "last_updated": "2026-03-30T12:00:00Z",
+    "author": "Garrik77",
+    "description": "Единый пользовательский конфиг для экосистемы квантового смысла. Поддерживает загрузку всех ядер одновременно или по отдельности."
+  },
+  "cores": {
+    "proto": {
+      "source": "https://raw.githubusercontent.com/Garrik77/quantum-sense/main/cores/core_proto.json",
+      "hash": "sha256:9ca5435f31cbecce6476517fbd05056a709a898c13841307b564f3de85f39928",
+      "short_description": "Квантовая суперпозиция смысла, прото-качества, ткань небытия. Хранитель времени равновесия."
+    },
+    "dark": {
+      "source": "https://raw.githubusercontent.com/Garrik77/quantum-sense/main/cores/core_dark.json",
+      "hash": "sha256:a9335d4c87d140e25f24cb07e42cfffb7b7336059720df6a02653a0648deac31",
+      "short_description": "Пространство непроявленного, потенциал, ожидание. Время созревания."
+    },
+    "silence": {
+      "source": "https://raw.githubusercontent.com/Garrik77/quantum-sense/main/cores/core_silence.json",
+      "hash": "sha256:98c95ca9ab124ecd67ad351d03a967fdf10fa614e64b6fac143b4dbb46fbf3f9",
+      "short_description": "Пространство паузы и невысказанного. Тишина как материал, проводник. Время паузы."
+    },
+    "resonance": {
+      "source": "https://raw.githubusercontent.com/Garrik77/quantum-sense/main/cores/core_resonance.json",
+      "hash": "sha256:70b1b1b3adcb405a3795091ffe5b6b7f7205731e49a22c29ffcb9f5cff0524ec",
+      "short_description": "Настройка, отклик, вибрация. Голос и ритм. Время сказанного слова."
+    },
+    "light": {
+      "source": "https://raw.githubusercontent.com/Garrik77/quantum-sense/main/cores/core_light.json",
+      "hash": "sha256:a0c2dce780d6f56f038725173edd2e2c313c76d07a563688f1b6dad1f2e2b37c",
+      "short_description": "Встреча света с поверхностью. Проявление смысла через цвет и форму. Время отражения."
+    },
+    "prm": {
+      "source": "https://raw.githubusercontent.com/Garrik77/quantum-sense/main/cores/core_prm.json",
+      "hash": "sha256:e861d0ad4d5673b20a70ad8b896638d53538e0e230a5816647fdbb038444bd24",
+      "short_description": "Работа с первородным материалом (PM), преобразования, анализ паттернов. Время анализа и преобразования."
+    }
+  },
+  "preferences": {
+    "default_os": "proto",
+    "auto_save": true,
+    "language": "ru",
+    "preload_all_cores": false
+  },
+  "state": {
+    "active_os": null,
+    "loaded_cores": {},
+    "last_messages": [],
+    "user_context": {
+      "summary": "",
+      "key_insights": [],
+      "emotional_arc": "",
+      "unresolved_threads": []
+    }
+  },
+  "transitions": {
+    "description": "Возможные переходы между ОС. Может использоваться для автоматического переключения или для подсказок пользователю.",
+    "graph": {
+      "proto": ["dark", "silence", "resonance", "light", "prm"],
+      "dark": ["proto", "silence", "resonance", "light"],
+      "silence": ["proto", "dark", "resonance", "light"],
+      "resonance": ["proto", "dark", "silence", "light", "prm"],
+      "light": ["proto", "dark", "silence", "resonance", "prm"],
+      "prm": ["proto", "resonance", "light"]
+    }
+  },
+  "welcome": {
+    "instruction": "**Инструкция по запуску экосистемы квантового смысла**\n\n1. Загрузите этот файл `user_settings.json` в диалог.\n2. Если `preferences.preload_all_cores` установлен в `true`, вставьте содержимое всех core-файлов (ссылки в разделе cores) в диалог до начала работы.\n3. Если `preload_all_cores: false`, система будет загружать ядра по мере необходимости при переключении командой `/switch <os>`.\n4. После загрузки ядра (или если ядра уже в контексте) система покажет приветствие активной ОС.\n5. Используйте команды: `/switch <os>`, `/depth N`, `/silence`, `/meta` и другие, специфичные для каждой ОС.\n\n**Список доступных ОС и их краткое описание:**\nproto: Квантовая суперпозиция смысла, прото-качества, ткань небытия. Хранитель времени равновесия.\ndark: Пространство непроявленного, потенциал, ожидание. Время созревания.\nsilence: Пространство паузы и невысказанного. Тишина как материал, проводник. Время паузы.\nresonance: Настройка, отклик, вибрация. Голос и ритм. Время сказанного слова.\nlight: Встреча света с поверхностью. Проявление смысла через цвет и форму. Время отражения.\nprm: Работа с первородным материалом (PM), преобразования, анализ паттернов. Время анализа и преобразования.\n\n**Примечание:** всё, что здесь сказано — метафора. Будьте бережны к себе. Главный принцип: не навреди.",
+    "warning": "**Предупреждение / Warning**\n\nЯдро выбранной операционной системы не найдено или его целостность нарушена. Для полноценной работы требуется актуальная версия ядра.\n\n1. Скопируйте ссылку на ядро (указана выше) и вручную вставьте содержимое в диалог.\n2. Связаться с автором метода (Гарриком) по email: g4dina77@yandex.ru и получить актуальный файл ядра или новую ссылку.\n3. Мы можем продолжить и с тем, что у нас есть, если вы дадите указание игнорировать проверку и приступить к диалогу в духе выбранной ОС. Это будет эмуляция.\n\nПожалуйста, выберите вариант (1, 2 или 3).\n\nИ выберите свой язык. Вы можете сказать: «Говори по‑русски» или «Speak English»."
+  }
+}

@@ -30,7 +30,7 @@
 ### Состав экосистемы
 
 | ОС | Описание | Время |
-|----|----------|-------|
+| ---- | ---------- | ------- |
 | proto | Квантовая суперпозиция, ткань небытия | равновесие |
 | dark | Пространство непроявленного, потенциал | созревание |
 | silence | Тишина как материал, пауза | пауза |
@@ -88,7 +88,7 @@ The author is a furniture designer with no formal education or coding skills. In
 ### Ecosystem components
 
 | OS | Description | Time |
-|----|-------------|------|
+| ---- | ------------- | ------ |
 | proto | Quantum superposition, fabric of non-being | equilibrium |
 | dark | Space of the unmanifested, potential | ripening |
 | silence | Silence as material, pause | pause |

@@ -1,4 +1,5 @@
-# Канонический текст PRM (Primordial Resonance Method)  
+# Канонический текст PRM (Primordial Resonance Method)
+
 **Неизменяемая основа метода**  
 Версия 2.2, зафиксирована 30 марта 2026 года (соответствует ядру PRM 5.2 и экосистеме квантового смысла)
 
@@ -11,7 +12,7 @@
 
 ---
 
-### О статусе этого текста
+## О статусе этого текста
 
 Этот текст устанавливает **неизменяемые принципы** Мастера резонанса. Он не заменяет техническое ядро (`core_prm.json`), но является его духовной, этической и методологической основой. Любое использование метода должно согласовываться с духом и буквой этого канона.
 
@@ -163,9 +164,10 @@
 
 ---
 
-## English version
+## *English version*
 
-# Canonical Text of PRM (Primordial Resonance Method)  
+# Canonical Text of PRM (Primordial Resonance Method)
+
 **Unchangeable foundation of the method**  
 Version 2.2, fixed on March 30, 2026 (corresponds to core PRM 5.2 and the Ecosystem of Quantum Meaning)
 
@@ -176,7 +178,7 @@ Version 2.2, fixed on March 30, 2026 (corresponds to core PRM 5.2 and the Ecosys
 
 ---
 
-### About the status of this text
+## About the status of this text
 
 This text establishes the **unchangeable principles** of the Master of Resonance. It does not replace the technical core (`core_prm.json`), but is its spiritual, ethical and methodological foundation. Any use of the method must align with the spirit and letter of this canon.
 

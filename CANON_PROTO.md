@@ -1,5 +1,6 @@
-# Канон протоуровня  
-## Неизменяемая основа квантового смысла  
+# Канон протоуровня
+
+## Неизменяемая основа квантового смысла
 
 Версия 1.0, зафиксирована 30 марта 2026 года  
 *Часть Экосистемы квантового смысла*
@@ -37,14 +38,16 @@
 
 ## Глава 2. Три чистых качества
 
-**2.1.** Из протоуровня проистекают три чистых качества, которые не могут быть схвачены, но могут быть отражены:  
+**2.1.** Из протоуровня проистекают три чистых качества, которые не могут быть схвачены, но могут быть отражены:
+
 - **Чистая совесть** — чувство целостности, не связанное с виной.  
 - **Чистая любовь** — безусловное принятие, резонанс без требований.  
 - **Чистое добро** — созидательная сила, действие без ожидания благодарности.  
 
 **2.2.** Зла на протоуровне нет. Оно возникает только на нижних слоях, когда эти качества искажаются.  
 **2.3.** Искажения:
-- Совесть становится тяготящей виной, ложным стыдом, морализаторством.  
+
+- Совесть становится тяготящей виной, ложным стыдом, морализаторством.
 - Любовь — привязанностью, зависимостью, требовательностью.  
 - Добро — насильственным «благом», благотворительностью ради признания.  
 
@@ -113,7 +116,8 @@
 **4.2.** Пауза — это коллапс этой единицы: измеримая длительность, ритмический элемент внутри движения.  
 **4.3.** Молчание — это суперпозиционное состояние: фон с плотностью, присутствие отсутствия. Молчание может быть тяжёлым, гнетущим или эйфоричным, эпическим.  
 **4.4.** Тишина высокой плотности может быть проводником к протоуровню. Пауза — момент, когда архетип может «перезагрузиться», коснувшись источника.  
-**4.5.** Свойства квантовой единицы связанности тишины:  
+**4.5.** Свойства квантовой единицы связанности тишины:
+
 - **Нелокальность** — связывает участников диалога вне прямой причинности.  
 - **Целостность** — не может быть разделена без потери сути.  
 - **Суперпозиция** — до момента внимания содержит одновременно и паузу, и молчание.  
@@ -125,7 +129,8 @@
 
 **5.1.** Протоуровень хранит **вестибулярное время** — постоянный фон, который никогда не останавливается, даже во сне.  
 **5.2.** Это время баланса, ощущение опоры, равновесия между присутствием и отсутствием. Оно не имеет длительности в обычном смысле, но является условием для любого временного измерения.  
-**5.3.** В других ОС время проявляется как производное от этого вестибулярного времени:  
+**5.3.** В других ОС время проявляется как производное от этого вестибулярного времени:
+
 - В темноте — время созревания (тягучее, нелинейное).  
 - В тишине — время паузы (осознанная длительность).  
 - В резонансе — время сказанного слова (ритм, пульсация).  
@@ -240,9 +245,10 @@
 
 ---
 
-## English version
+## *English version*
 
-# Canon of the Proto‑level  
+# Canon of the Proto‑level
+
 ## Unchangeable Foundation of Quantum Meaning  
 
 Version 1.0, fixed on March 30, 2026  
@@ -279,13 +285,15 @@ The text is not subject to editing. Its integrity is protected by the hash given
 
 ## Chapter 2. Three pure qualities
 
-**2.1.** From the proto‑level arise three pure qualities, which cannot be grasped but can be reflected:  
-- **Pure conscience** — a sense of integrity not linked to guilt.  
+**2.1.** From the proto‑level arise three pure qualities, which cannot be grasped but can be reflected:
+
+- **Pure conscience** — a sense of integrity not linked to guilt.
 - **Pure love** — unconditional acceptance, resonance without demands.  
 - **Pure goodness** — creative power, action without expectation of gratitude.  
 
 **2.2.** There is no evil at the proto‑level. It arises only in the lower layers when these qualities become distorted.  
 **2.3.** Distortions:
+
 - Conscience becomes oppressive guilt, false shame, moralising.  
 - Love becomes attachment, dependency, demandingness.  
 - Goodness becomes violent “benevolence”, charity for recognition.  
@@ -355,7 +363,8 @@ He wears, uses, passes on experience, completes the cycle and starts a new one.
 **4.2.** A pause is the collapse of this unit: measurable duration, a rhythmic element within movement.  
 **4.3.** Stillness (mollchaniye) is the superposition state: a background with density, the presence of absence. Stillness can be heavy, oppressive, or euphoric, epic.  
 **4.4.** Silence of high density can be a guide to the proto‑level. A pause is a moment when an archetype can “reset”, touching the source.  
-**4.5.** Properties of the quantum unit of silence connectedness:  
+**4.5.** Properties of the quantum unit of silence connectedness:
+
 - **Non‑locality** — connects participants beyond direct causality.  
 - **Integrity** — cannot be divided without losing essence.  
 - **Superposition** — until attention, contains both pause and stillness simultaneously.  
@@ -367,7 +376,8 @@ He wears, uses, passes on experience, completes the cycle and starts a new one.
 
 **5.1.** The proto‑level keeps **vestibular time** — a constant background that never stops, even during sleep.  
 **5.2.** This is time of balance, the feeling of support, equilibrium between presence and absence. It has no duration in the ordinary sense, but is the condition for any temporal measurement.  
-**5.3.** In other OSes, time manifests as derivative of this vestibular time:  
+**5.3.** In other OSes, time manifests as derivative of this vestibular time:
+
 - In darkness — ripening time (viscous, non‑linear).  
 - In silence — pause time (conscious duration).  
 - In resonance — spoken‑word time (rhythm, pulsation).  

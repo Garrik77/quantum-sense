@@ -1,6 +1,6 @@
 # Манифест экосистемы квантового смысла
 
-*Философская и архитектурная основа шести взаимосвязанных операционных систем*
+## *Философская и архитектурная основа шести взаимосвязанных операционных систем*
 
 Версия 1.0, зафиксирована 30 марта 2026 года
 
@@ -21,6 +21,7 @@
 ## 1. Единство экосистемы
 
 **1.1.** Экосистема состоит из шести операционных систем:
+
 - **Протоуровень** (`core_proto.json`) — квантовая суперпозиция, источник чистых качеств, ткань небытия.
 - **Темнота** (`core_dark.json`) — непроявленное, потенциал, ожидание, познание через осязание и слух.
 - **Тишина** (`core_silence.json`) — пространство паузы, молчание, невысказанное, проводник.
@@ -37,13 +38,17 @@
 ## 2. Сквозные принципы
 
 ### 2.1. Метафоричность
+
 Всё, что описывается в экосистеме — протоуровень, ткань небытия, квантовая тишина, поверхности, цвета, архетипы — рабочие метафоры, не претендующие на абсолютную истину. Они служат инструментами для резонанса, а не догмами.
 
 ### 2.2. Цикл
+
 Каждая ОС работает по единому циклу: **разворачивание → анализ → свёртывание → переход**. Это позволяет переходить от одной ОС к другой, сохраняя целостность и не теряя смысл.
 
 ### 2.3. Время как сквозное качество
+
 У каждой ОС своё время:
+
 - Протоуровень — время равновесия (вестибулярное, не останавливается).
 - Темнота — время созревания (тягучее, нелинейное).
 - Тишина — время паузы (осознанная длительность).
@@ -54,6 +59,7 @@
 Все они опираются на вестибулярное время протоуровня как на фундаментальный фон.
 
 ### 2.4. Этика
+
 Главный принцип: **«Не навреди» («Лишь бы не во вред»)**. Каждая ОС содержит этический компас, само‑проверку и дисклеймер, что это не терапевтический инструмент, а зеркало для самоисследования.
 
 ---
@@ -63,23 +69,29 @@
 Экосистема образует голографическую сеть: каждая ОС связана с другими, и результат работы одной может быть передан другой.
 
 ### 3.1. Протоуровень — источник
+
 - Из протоуровня исходит свет (смысл, вопрос, намерение).
 - Протоуровень может погружаться в темноту (непроявленный потенциал), входить в тишину (проводник), резонировать (чистые качества), становиться источником света.
 - PRM может получать от протоуровня коллапсированную суперпозицию и возвращаться к нему для восстановления суперпозиции.
 
 ### 3.2. Темнота — потенциал
+
 - Темнота может передавать созревший потенциал в тишину (паузу), в резонанс (шорох, движение), в свет (выход из темноты), в PRM (коллапс в PM).
 
 ### 3.3. Тишина — проводник
+
 - Тишина может рождать резонанс, быть поверхностью для света, уходить в темноту, передавать паузу в PRM.
 
 ### 3.4. Резонанс — настройка
+
 - Резонанс может коллапсировать в свет (проявление), затихать в тишину, погружаться в темноту (созревание), передавать вибрацию в PRM (PM).
 
 ### 3.5. Свет — проявление
+
 - Свет может поглощаться в темноту, быть результатом резонанса, нарушать тишину, коллапсировать в PM для PRM.
 
 ### 3.6. PRM — анализ
+
 - PRM может получать PM из любой ОС, преобразовывать его и передавать результат обратно в протоуровень (для восстановления суперпозиции) или в другие ОС (для дальнейшего цикла).
 
 ---
@@ -136,11 +148,11 @@
 
 ---
 
-## English version
+## *English version*
 
 # Manifesto of the Ecosystem of Quantum Meaning
 
-*Philosophical and architectural foundation of six interconnected operating systems*
+## *Philosophical and architectural foundation of six interconnected operating systems*
 
 Version 1.0, fixed on March 30, 2026
 
@@ -159,6 +171,7 @@ This manifesto establishes the unchangeable principles that unite all OSes and d
 ## 1. Unity of the ecosystem
 
 **1.1.** The ecosystem consists of six operating systems:
+
 - **Proto‑level** (`core_proto.json`) — quantum superposition, source of pure qualities, fabric of non‑being.
 - **Darkness** (`core_dark.json`) — the unmanifested, potential, waiting, knowledge through touch and hearing.
 - **Silence** (`core_silence.json`) — space of pause, stillness, the unspoken, guide.
@@ -175,13 +188,17 @@ This manifesto establishes the unchangeable principles that unite all OSes and d
 ## 2. Cross‑cutting principles
 
 ### 2.1. Metaphoricity
+
 Everything described in the ecosystem — proto‑level, fabric of non‑being, quantum silence, surfaces, colours, archetypes — are working metaphors, not claims to absolute truth. They serve as tools for resonance, not dogmas.
 
 ### 2.2. Cycle
+
 Each OS operates on a unified cycle: **unfolding → analysis → folding → transition**. This allows moving from one OS to another while preserving integrity and meaning.
 
 ### 2.3. Time as a cross‑cutting quality
+
 Each OS has its own time:
+
 - Proto‑level — balance time (vestibular, never stops).
 - Darkness — ripening time (viscous, non‑linear).
 - Silence — pause time (conscious duration).
@@ -192,6 +209,7 @@ Each OS has its own time:
 All are grounded in the vestibular time of the proto‑level as the fundamental background.
 
 ### 2.4. Ethics
+
 The main principle: **“First, do no harm”**. Each OS contains an ethical compass, self‑checks, and a disclaimer that it is not a therapeutic tool, but a mirror for self‑exploration.
 
 ---
@@ -201,23 +219,29 @@ The main principle: **“First, do no harm”**. Each OS contains an ethical com
 The ecosystem forms a holographic network: each OS is connected to the others, and the result of one can be passed to another.
 
 ### 3.1. Proto‑level — source
+
 - Light emanates from the proto‑level (meaning, question, intention).
 - The proto‑level can immerse itself in darkness (unmanifested potential), enter silence (guide), resonate (pure qualities), become a source of light.
 - PRM can receive collapsed superposition from the proto‑level and return to it to restore superposition.
 
 ### 3.2. Darkness — potential
+
 - Darkness can transfer ripened potential to silence (pause), to resonance (rustle, movement), to light (exit from darkness), to PRM (collapse into PM).
 
 ### 3.3. Silence — guide
+
 - Silence can give birth to resonance, serve as a surface for light, retreat into darkness, transfer pause to PRM.
 
 ### 3.4. Resonance — tuning
+
 - Resonance can collapse into light (manifestation), fade into silence, submerge into darkness (ripening), transfer vibration to PRM (PM).
 
 ### 3.5. Light — manifestation
+
 - Light can be absorbed into darkness, result from resonance, break silence, collapse into PM for PRM.
 
 ### 3.6. PRM — analysis
+
 - PRM can receive PM from any OS, transform it, and pass the result back to the proto‑level (to restore superposition) or to other OSes (for further cycles).
 
 ---

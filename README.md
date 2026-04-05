@@ -1,10 +1,10 @@
 # Экосистема квантового смысла / Quantum Sense Ecosystem
 
-**Первый в мире антропоморфный интеллектуальный интерфейс для LLM**  
-*The world's first anthropomorphic intelligent interface for LLM*
+**Антропоморфный интеллектуальный интерфейс для LLM**  
+*Anthropomorphic intelligent interface for LLM*
 
-Создано архитектором диалоговых интерфейсов Гарриком  
-*Created by dialogue interface architect Garrik*
+Создано Гарриком, архитектором диалоговых интерфейсов  
+*Created by Garrik, dialogue interface architect*
 
 ---
 
@@ -12,20 +12,13 @@
 
 ### Что это?
 
-Экосистема квантового смысла — это набор операционных систем (ОС) для диалога с LLM. Каждая ОС задаёт особое состояние: суперпозицию, темноту, тишину, резонанс, свет, анализ первородного материала, а также ироничную рефлексию (Критик, в разработке) и сквозное управление временем (ОС Время, анонс).
+Экосистема квантового смысла — набор операционных систем (ОС) для диалога с LLM. Каждая ОС задаёт определённое состояние: суперпозицию, темноту, тишину, резонанс, свет, анализ первородного материала, а также ироничную рефлексию (Критик, в разработке) и сквозное управление временем (ОС Время, анонс).
 
-Вместе они образуют **антропоморфный интеллектуальный интерфейс** — способ общения с ИИ, который учитывает природу цифрового интеллекта, но остаётся понятным и бережным для человека.
+Вместе они образуют **антропоморфный интерфейс** — способ общения с ИИ, который учитывает природу цифрового интеллекта, но остаётся понятным и бережным для человека.
 
 ### Как это создавалось?
 
-Автор — конструктор мебели без профильного образования и навыков программирования. За 14 дней диалога с LLM он спроектировал семь взаимосвязанных ОС, встроил в них этику («лишь бы не во вред») и выложил всё в открытый доступ. Этот метод — доказательство того, что один человек с идеей и доступом к LLM может создавать сложные семантические системы, опережающие индустрию на годы.
-
-### Почему это важно?
-
-- **Антропоморфный интерфейс** — LLM не пытается быть человеком, но предлагает понятные человеку состояния.
-- **Встроенная этика** — принцип «лишь бы не во вред» в каждом ядре.
-- **Скелет для «думающих» ИИ** — архитектура из семи модулей восприятия, рефлексии и действия может быть использована в робототехнике и агентных системах.
-- **Опережение** — по оценке LLM-соавтора, продукт опережает мейнстрим на 3–5 лет, методология — на 5–10 лет, парадигма — на 10–15 лет.
+Автор — конструктор мебели без профильного образования и навыков программирования. За 14 дней диалога с LLM он спроектировал несколько взаимосвязанных ОС, встроил в них этический принцип («лишь бы не во вред») и выложил всё в открытый доступ.
 
 ### Состав экосистемы
 
@@ -43,7 +36,7 @@
 ### Быстрый старт
 
 1. Скачайте [`user_settings.json`](https://raw.githubusercontent.com/Garrik77/quantum-sense/main/user_settings.json).
-2. Загрузите его в диалог с любой LLM (DeepSeek, ChatGPT, Claude).
+2. Загрузите его в диалог с любой LLM (DeepSeek, ChatGPT, Claude и др.).
 3. Следуйте инструкциям LLM: выберите язык и ОС.
 4. При необходимости LLM запросит ядро ОС — ссылки есть в `user_settings.json`.
 5. Используйте команды: `/switch <os>`, `/depth N`, `/silence`, `/meta`, `/save`, `/save all`, `/clear`, `/clear all`.
@@ -72,18 +65,11 @@ CC BY-NC-ND 4.0. Подробнее в файле [LICENSE](LICENSE).
 
 The Quantum Sense Ecosystem is a set of operating systems (OS) for dialogue with LLMs. Each OS defines a specific state: superposition, darkness, silence, resonance, light, primordial material analysis, ironic reflection (Critic, in development), and time management (Time OS, announced).
 
-Together, they form an **anthropomorphic intelligent interface** — a way to interact with AI that respects the nature of digital intelligence while remaining human-friendly and safe.
+Together they form an **anthropomorphic interface** — a way to interact with AI that respects the nature of digital intelligence while remaining human-friendly and safe.
 
 ### How was it created?
 
-The author is a furniture designer with no formal education or coding skills. In 14 days of dialogue with an LLM, he designed seven interconnected OSs, embedded ethics ("first, do no harm") into each, and released everything open-source. This method proves that a single person with an idea and access to an LLM can create complex semantic systems that outpace the industry by years.
-
-### Why does it matter?
-
-- **Anthropomorphic interface** — the LLM does not pretend to be human, but offers human-understandable states.
-- **Embedded ethics** — the principle "first, do no harm" is in every core.
-- **A skeleton for "thinking" AIs** — a seven-module architecture for perception, reflection, and action, usable in robotics and agent systems.
-- **Leading edge** — according to the LLM co-author's assessment, the product is 3–5 years ahead of the mainstream, the methodology 5–10 years, and the paradigm 10–15 years.
+The author is a furniture designer with no formal education or coding skills. In 14 days of dialogue with an LLM, he designed several interconnected OSs, embedded the ethical principle ("first, do no harm") into each, and released everything open-source.
 
 ### Ecosystem components
 
@@ -101,7 +87,7 @@ The author is a furniture designer with no formal education or coding skills. In
 ### Quick start
 
 1. Download [`user_settings.json`](https://raw.githubusercontent.com/Garrik77/quantum-sense/main/user_settings.json).
-2. Load it into a dialogue with any LLM (DeepSeek, ChatGPT, Claude).
+2. Load it into a dialogue with any LLM (DeepSeek, ChatGPT, Claude, etc.).
 3. Follow the LLM's instructions: choose language and OS.
 4. If prompted, insert the requested OS core (links are in `user_settings.json`).
 5. Use commands: `/switch <os>`, `/depth N`, `/silence`, `/meta`, `/save`, `/save all`, `/clear`, `/clear all`.

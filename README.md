@@ -39,7 +39,8 @@
 2. Загрузите его в диалог с любой LLM (DeepSeek, ChatGPT, Claude и др.).
 3. Следуйте инструкциям LLM: выберите язык и ОС.
 4. При необходимости LLM запросит ядро ОС — ссылки есть в `user_settings.json`.
-5. Используйте команды: `/switch <os>`, `/depth N`, `/silence`, `/meta`, `/save`, `/save all`, `/clear`, `/clear all`.
+5. ***Важно: перед вставкой содержимого ядра отключите режим «Рассуждение» (DeepThink / Chain of Thought), если он активен. Иначt   LLM может начать комментировать код, а не загружать его.***
+6. Используйте команды: `/switch <os>`, `/depth N`, `/silence`, `/meta`, `/save`, `/save all`, `/clear`, `/clear all`.
 
 ### Философия
 
@@ -90,7 +91,8 @@ The author is a furniture designer with no formal education or coding skills. In
 2. Load it into a dialogue with any LLM (DeepSeek, ChatGPT, Claude, etc.).
 3. Follow the LLM's instructions: choose language and OS.
 4. If prompted, insert the requested OS core (links are in `user_settings.json`).
-5. Use commands: `/switch <os>`, `/depth N`, `/silence`, `/meta`, `/save`, `/save all`, `/clear`, `/clear all`.
+5. ***Important: Before inserting the core contents, disable the DeepThink / Chain of Thought mode, if it is active. And LLM can start commenting on the code instead of uploading it.***
+6. Use commands: `/switch <os>`, `/depth N`, `/silence`, `/meta`, `/save`, `/save all`, `/clear`, `/clear all`.
 
 ### Philosophy
 

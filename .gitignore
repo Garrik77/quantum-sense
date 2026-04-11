@@ -10,5 +10,6 @@ secret.json
 .DS_Store
 *.tmp
 *.log
+
 # Папка с настройками контейнера для разработки (личное)
 .devcontainer

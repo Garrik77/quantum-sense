@@ -1,11 +1,12 @@
 # Файлы с секретами (ключи API, пароли)
 .env
 secret.json
+.devcontainer
+.devcontainer.json
 
 # Локальные настройки редактора
 .vscode/
 .idea/
-.devcontainer/
 
 # Временные и системные файлы macOS
 .DS_Store

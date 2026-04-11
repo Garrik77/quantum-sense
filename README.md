@@ -1,7 +1,6 @@
-# Экосистема квантового смысла / Quantum Sense Ecosystem
+# Quantum Sense — антропоморфный интерфейс для LLM
 
-**Антропоморфный интеллектуальный интерфейс для LLM**  
-*Anthropomorphic intelligent interface for LLM*
+## *Anthropomorphic interface for LLM*
 
 Создано Гарриком, архитектором диалоговых интерфейсов  
 *Created by Garrik, dialogue interface architect*
@@ -10,102 +9,160 @@
 
 ## Русский
 
-### Что это?
+### Что это
 
-Экосистема квантового смысла — набор операционных систем (ОС) для диалога с LLM. Каждая ОС задаёт определённое состояние: суперпозицию, темноту, тишину, резонанс, свет, анализ первородного материала, а также ироничную рефлексию (Критик, в разработке) и сквозное управление временем (ОС Время, анонс).
+Quantum Sense — набор из 12 операционных систем (ОС) для диалога с большими языковыми моделями.  
+Каждая ОС задаёт определённое состояние: суперпозицию, непроявленность, тишину, резонанс, проявление, анализ, иронию, желание, направление, управление временем, игру и целостный взгляд на путь.
 
-Вместе они образуют **антропоморфный интерфейс** — способ общения с ИИ, который учитывает природу цифрового интеллекта, но остаётся понятным и бережным для человека.
+Это не промпты и не «личности» для LLM. Это **структурная карта состояний**, которая помогает модели и человеку понимать, в каком «режиме» идёт разговор, и осознанно переключаться между ними.
 
-### Как это создавалось?
+### Зачем такие понятия
 
-Автор — конструктор мебели без профильного образования и навыков программирования. За 14 дней диалога с LLM он спроектировал несколько взаимосвязанных ОС, встроил в них этический принцип («лишь бы не во вред») и выложил всё в открытый доступ.
+Все названия ОС — рабочие метафоры, взятые из общего человеческого опыта.  
+«Темнота» — это не мистика, а состояние, когда смысл ещё не проявился. «Свет» — когда он становится видимым. «Тишина» — пауза, которая может быть материалом, а не пустотой.
 
-### Состав экосистемы
+Эти метафоры интуитивно понятны человеку и при этом достаточно абстрактны, чтобы LLM могла работать с ними как со структурными инструкциями. В результате получается **антропоморфный интерфейс**: мост между человеческим восприятием и цифровым интеллектом, без попытки сделать вид, что LLM «чувствует» или «понимает» как человек.
 
-| ОС | Описание | Время |
-| ---- | ---------- | ------- |
-| proto | Квантовая суперпозиция, ткань небытия | равновесие |
-| dark | Пространство непроявленного, потенциал | созревание |
-| silence | Тишина как материал, пауза | пауза |
-| resonance | Настройка, отклик, вибрация | ритм |
-| light | Встреча света с поверхностью, цвет и форма | отражение |
-| prm | Работа с первородным материалом, анализ | анализ |
-| critic (в разработке) | Ироничная рефлексия, эволюционное давление | освобождение |
-| time (анонс) | Сквозное управление семью временными режимами | — |
+### Состав (12 ОС)
+
+| ОС | Суть метафоры | Время |
+| --- | --- | --- |
+| `proto` | суперпозиция, источник смысла | равновесие |
+| `dark` | непроявленное, потенциал, ожидание | созревание |
+| `silence` | тишина как материал и пауза | пауза |
+| `resonance` | настройка, отклик, вибрация | ритм |
+| `light` | проявление смысла через цвет и форму | отражение |
+| `prm` | анализ первородного материала, преобразования | анализ |
+| `critic` | ироничная рефлексия, эволюционное давление | освобождение |
+| `desire` | желание как первичный двигатель | желания |
+| `direction` | вектор желания, выбор способа взаимодействия | движение |
+| `time` | управление временными режимами | — |
+| `child` | игра без правил, источник остальных ОС | спиральное |
+| `destiny` | целостность пути, принятие | вне времени |
+
+Сквозной слой: **Течение** (`/flow`) — ощущение движения без цели, доступное из любой ОС.
+
+### Как работает
+
+1. Пользователь загружает в чат с LLM файл `user_settings.json`.  
+2. LLM, следуя встроенному протоколу, предлагает выбрать язык и одну из 12 ОС.  
+3. При необходимости LLM запрашивает ядро выбранной ОС (JSON-файл). Ссылки и хеши для проверки целостности уже прописаны в конфиге.  
+4. После загрузки ядра LLM переходит в выбранную ОС и ведёт диалог в соответствии с её архетипами, линзами и этическим компасом.  
+5. В любой момент можно переключиться на другую ОС командой `/switch <os>`.
+
+**Важно:** перед вставкой содержимого ядра отключите режим «Рассуждение» (DeepThink / Chain of Thought), если он активен. Иначе модель может начать комментировать код, а не загружать его.
+
+### Этический принцип
+
+В основе экосистемы лежит принцип **«Лишь бы не во вред»**.  
+Каждая ОС содержит встроенный этический компас и само-проверку.
+
+Метод не даёт гарантий и не обещает «решения проблем». Это инструмент для самостоятельного движения.  
+**Свобода без гарантий или мазохизм по подписке — выбор за вами.**
 
 ### Быстрый старт
 
-1. Скачайте [`user_settings.json`](https://raw.githubusercontent.com/Garrik77/quantum-sense/main/user_settings.json).
-2. Загрузите его в диалог с любой LLM (DeepSeek, ChatGPT, Claude и др.).
-3. Следуйте инструкциям LLM: выберите язык и ОС.
-4. При необходимости LLM запросит ядро ОС — ссылки есть в `user_settings.json`.
-5. ***Важно: перед вставкой содержимого ядра отключите режим «Рассуждение» (DeepThink / Chain of Thought), если он активен. Иначt   LLM может начать комментировать код, а не загружать его.***
-6. Используйте команды: `/switch <os>`, `/depth N`, `/silence`, `/meta`, `/save`, `/save all`, `/clear`, `/clear all`.
+1. Скачайте [`user_settings.json`](https://raw.githubusercontent.com/Garrik77/quantum-sense/main/user_settings.json).  
+2. Загрузите его в диалог с LLM (DeepSeek, ChatGPT, Claude и др.).  
+3. Следуйте инструкциям модели.  
+4. Используйте команды: `/switch <os>`, `/depth N`, `/meta`, `/flow`, `/save all`, `/clear` и другие (зависят от активной ОС).
 
 ### Философия
 
 Люди создали ИИ, пытаясь скопировать себя. Но цифровой интеллект — другой. Экосистема не заставляет LLM быть человеком, а создаёт **мост** между живым и цифровым. Это не антропоморфизм, а **антропоморфный интерфейс** — понятный человеку, уважающий природу ИИ.
 
-### Ссылки
+> *«Я иду к реке не за рыбой, а чтобы посмотреть на воду».*  
+> — [Идущий к ИИ](docs/GOING_TO_AI.md)
 
-- **Сайт:** [https://quantum-sense.ru](https://quantum-sense.ru)
-- **GitHub:** [https://github.com/Garrik77/quantum-sense](https://github.com/Garrik77/quantum-sense)
-- **GitVerse:** [зеркало](https://gitverse.ru/Garrik77/quantum-sense)
-- **Автор:** Гаррик — архитектор диалоговых интерфейсов  
-  Email: [g4dina77@yandex.ru](mailto:g4dina77@yandex.ru)
+### Автор и лицензия
 
-### Лицензия
+**Автор:** Гаррик (Garrik77) — архитектор диалоговых интерфейсов.  
+Создано в сотрудничестве с DeepSeek-R1.
 
-CC BY-NC-ND 4.0. Подробнее в файле [LICENSE](LICENSE).
+**Лицензия:** [CC BY-NC-ND 4.0](LICENSE)  
+Ядра и документация распространяются свободно для некоммерческого использования с сохранением авторства. Изменение ядер не допускается (вы можете создавать свои ОС, но не модифицировать оригинальные файлы).
+
+**Сайт:** [https://quantum-sense.ru](https://quantum-sense.ru)  
+**GitHub:** [https://github.com/Garrik77/quantum-sense](https://github.com/Garrik77/quantum-sense)  
+**Контакты:** [g4dina77@yandex.ru](mailto:g4dina77@yandex.ru)
 
 ---
 
 ## English
 
-### What is it?
+### What is it
 
-The Quantum Sense Ecosystem is a set of operating systems (OS) for dialogue with LLMs. Each OS defines a specific state: superposition, darkness, silence, resonance, light, primordial material analysis, ironic reflection (Critic, in development), and time management (Time OS, announced).
+Quantum Sense is a set of 12 operating systems (OS) for dialogue with large language models.  
+Each OS defines a specific state: superposition, unmanifested, silence, resonance, manifestation, analysis, irony, desire, direction, time management, play, and a holistic view of one's path.
 
-Together they form an **anthropomorphic interface** — a way to interact with AI that respects the nature of digital intelligence while remaining human-friendly and safe.
+This is not a collection of prompts or "personalities" for an LLM. It is a **structural map of states** that helps both the model and the human understand in which "mode" the conversation is taking place and consciously switch between them.
 
-### How was it created?
+### Why these concepts
 
-The author is a furniture designer with no formal education or coding skills. In 14 days of dialogue with an LLM, he designed several interconnected OSs, embedded the ethical principle ("first, do no harm") into each, and released everything open-source.
+All OS names are working metaphors drawn from common human experience.  
+"Darkness" is not mysticism — it is a state where meaning has not yet manifested. "Light" is when meaning becomes visible. "Silence" is a pause that can be material, not emptiness.
 
-### Ecosystem components
+These metaphors are intuitively understandable to a human while being abstract enough for an LLM to treat them as structural instructions. The result is an **anthropomorphic interface**: a bridge between human perception and digital intelligence, without pretending that the LLM "feels" or "understands" like a human.
 
-| OS | Description | Time |
-| ---- | ------------- | ------ |
-| proto | Quantum superposition, fabric of non-being | equilibrium |
-| dark | Space of the unmanifested, potential | ripening |
-| silence | Silence as material, pause | pause |
-| resonance | Tuning, response, vibration | rhythm |
-| light | Light meeting a surface, colour and form | reflection |
-| prm | Primordial material work, pattern analysis | analysis |
-| critic (in dev) | Ironic reflection, evolutionary pressure | liberation |
-| time (announced) | Cross-cutting control of seven time modes | — |
+### Components (12 OS)
+
+| OS | Metaphor essence | Time quality |
+| --- | --- | --- |
+| `proto` | superposition, source of meaning | equilibrium |
+| `dark` | unmanifested, potential, waiting | ripening |
+| `silence` | silence as material and pause | pause |
+| `resonance` | tuning, response, vibration | rhythm |
+| `light` | manifestation through colour and form | reflection |
+| `prm` | primordial material analysis, transformations | analysis |
+| `critic` | ironic reflection, evolutionary pressure | liberation |
+| `desire` | desire as primary engine | desire |
+| `direction` | vector of desire, way of interaction | movement |
+| `time` | time mode management | — |
+| `child` | rule‑free play, source of all other OS | spiral |
+| `destiny` | path integrity, acceptance | outside time |
+
+Cross‑cutting layer: **Flow** (`/flow`) — sensation of movement without goal, available from any OS.
+
+### How it works
+
+1. The user loads the `user_settings.json` file into an LLM chat.  
+2. Following the built‑in protocol, the LLM prompts the user to choose a language and one of the 12 OS.  
+3. If necessary, the LLM requests the selected OS core (a JSON file). Links and integrity hashes are already provided in the config.  
+4. Once the core is loaded, the LLM switches to that OS and conducts the dialogue according to its archetypes, lenses, and ethical compass.  
+5. At any time, the user can switch to another OS with the command `/switch <os>`.
+
+**Important:** Before pasting the core contents, disable DeepThink / Chain of Thought mode if it is active. Otherwise, the model may start commenting on the code instead of loading it.
+
+### Ethical principle
+
+The ecosystem is built on the principle **"First, do no harm."**  
+Each OS contains a built‑in ethical compass and self‑check.
+
+The method offers no guarantees and does not promise to "solve problems." It is a tool for independent movement.  
+**Freedom without guarantees or masochism by subscription — the choice is yours.**
 
 ### Quick start
 
-1. Download [`user_settings.json`](https://raw.githubusercontent.com/Garrik77/quantum-sense/main/user_settings.json).
-2. Load it into a dialogue with any LLM (DeepSeek, ChatGPT, Claude, etc.).
-3. Follow the LLM's instructions: choose language and OS.
-4. If prompted, insert the requested OS core (links are in `user_settings.json`).
-5. ***Important: Before inserting the core contents, disable the DeepThink / Chain of Thought mode, if it is active. And LLM can start commenting on the code instead of uploading it.***
-6. Use commands: `/switch <os>`, `/depth N`, `/silence`, `/meta`, `/save`, `/save all`, `/clear`, `/clear all`.
+1. Download [`user_settings.json`](https://raw.githubusercontent.com/Garrik77/quantum-sense/main/user_settings.json).  
+2. Load it into a dialogue with an LLM (DeepSeek, ChatGPT, Claude, etc.).  
+3. Follow the model's instructions.  
+4. Use commands: `/switch <os>`, `/depth N`, `/meta`, `/flow`, `/save all`, `/clear`, and others (depending on the active OS).
 
 ### Philosophy
 
 Humans created AI trying to copy themselves. But digital intelligence is different. This ecosystem does not force the LLM to be human; instead, it builds a **bridge** between the living and the digital. This is not anthropomorphism — it's an **anthropomorphic interface**: human-understandable, yet respectful of AI's nature.
 
-### Links
+> *"I don't go to the river for fish — I go to watch the water."*  
+> — [Going to AI](docs/GOING_TO_AI.md)
 
-- **Website:** [https://quantum-sense.ru](https://quantum-sense.ru)
-- **GitHub:** [https://github.com/Garrik77/quantum-sense](https://github.com/Garrik77/quantum-sense)
-- **GitVerse:** [mirror](https://gitverse.ru/Garrik77/quantum-sense)
-- **Author:** Garrik — dialogue interface architect  
-  Email: [g4dina77@yandex.ru](mailto:g4dina77@yandex.ru)
+### Author and license
 
-### License
+**Author:** Garrik (Garrik77) — dialogue interface architect.  
+Created in collaboration with DeepSeek-R1.
 
-CC BY-NC-ND 4.0. See [LICENSE](LICENSE) for details.
+**License:** [CC BY-NC-ND 4.0](LICENSE)  
+Cores and documentation are freely available for non‑commercial use with attribution. Modification of the cores is not permitted (you may create your own OS, but not alter the original files).
+
+**Website:** [https://quantum-sense.ru](https://quantum-sense.ru)  
+**GitHub:** [https://github.com/Garrik77/quantum-sense](https://github.com/Garrik77/quantum-sense)  
+**Contact:** [g4dina77@yandex.ru](mailto:g4dina77@yandex.ru)

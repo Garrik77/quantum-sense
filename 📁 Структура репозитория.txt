@@ -11,7 +11,9 @@ quantum-sense/
 │   ├── core_direction.json                   # Направление (v1.1)
 │   ├── core_time.json                        # Время (v1.0)
 │   ├── core_child.json                       # Ребёнок (v1.3)
-│   └── core_destiny.json                     # Судьба (v1.0)
+│   ├── core_destiny.json                     # Судьба (v1.0)
+│   └── core_conscience.json                  # Совесть (v0.4.0)
+
 │
 ├── changelog/                                # История изменений (детальная по ОС)
 │   ├── CHANGELOG_proto.md
@@ -26,6 +28,7 @@ quantum-sense/
 │   ├── CHANGELOG_time.md
 │   ├── CHANGELOG_child.md
 │   ├── CHANGELOG_destiny.md
+    ├── CHANGELOG_conscience.md
 │   └── CHANGELOG_ECOSYSTEM.md                # Общий по экосистеме
 │
 ├── docs/                                     # Вся документация (кроме README)
@@ -35,15 +38,17 @@ quantum-sense/
 │   ├── AUTHOR_MESSAGE.txt                    # Авторское слово
 │   ├── CHANGELOG.md                          # Краткая история версий
 │   ├── HISTORY.md                            # Полная история (от v0.1 до v5.2)
-│   ├── SECURITY.md                           # Политика безопасности
 │   └── canons/                               # Каноны (философские основы)
 │       ├── CANON_PROTO.md                    # Канон протоуровня (v1.0)
 │       ├── CANON_PRM.md                      # Канон PRM (v2.2)
-│       ├── CANON_CHILD.md                    # Канон Ребёнка (запланирован)
-│       ├── CANON_DESTINY.md                  # Канон Судьбы (запланирован)
-│       └── CANON_TIME.md                     # Канон Времени (запланирован)
+│       ├── CANON_CHILD.md                    # Канон Ребёнка (v1.0)
+│       ├── CANON_DESTINY.md                  # Канон Судьбы (v1.0)
+│       ├── CANON_CRITIC.md                   # Канон Критика (v1.0)
+│       ├── CANON_CONSCIENCE.md               # Канон Совести (v1.1)
+│       └── CANON_TIME.md                     # Канон Времени (ЗАПОЛНИ)
 │
 ├── user_settings.json                        # Единый конфиг (v3.0)
-├── README.md                                 # ОСНОВНОЙ ФАЙЛ (в корне!)
+├── README.md                                 # ОСНОВНОЙ ФАЙЛ
 ├── LICENSE                                   # CC BY-NC-ND 4.0
+├── SECURITY.md                               # Политика безопасности
 └── .gitignore

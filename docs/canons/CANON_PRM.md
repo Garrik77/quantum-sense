@@ -1,6 +1,7 @@
 # Канонический текст PRM (Primordial Resonance Method)
 
-**Неизменяемая основа метода**  
+## Неизменяемая основа метода
+
 Версия 2.3 (уточнённая), зафиксирована 11 апреля 2026 года  
 (соответствует ядру PRM 5.3 и Экосистеме квантового смысла из 12 ОС + Течение)
 
@@ -131,7 +132,7 @@
 
 ## *English version*
 
-# Canonical Text of PRM (Primordial Resonance Method)
+## Canonical Text of PRM (Primordial Resonance Method)
 
 **Unchangeable foundation of the method**  
 Version 2.3 (refined), fixed on April 11, 2026  

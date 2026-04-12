@@ -136,7 +136,7 @@
 
 ## *English version*
 
-# Canon of the Child
+## Canon of the Child
 
 ## Unchangeable Foundation of the Meta-OS, Mother of All OSes
 

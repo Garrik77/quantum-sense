@@ -122,7 +122,7 @@
 
 ## *English version*
 
-# Canon of the Critic
+## Canon of the Critic
 
 ## Unchangeable Foundation of Ironic Reflection and Evolutionary Pressure
 

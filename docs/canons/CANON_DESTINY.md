@@ -123,7 +123,7 @@
 
 ## *English version*
 
-# Canon of Destiny
+## Canon of Destiny
 
 ## Unchangeable Foundation of Path Integrity
 

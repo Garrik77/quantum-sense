@@ -218,7 +218,7 @@
 
 ## *English version*
 
-# Canon of the Proto‑level
+## Canon of the Proto‑level
 
 ## Unchangeable Foundation of Quantum Meaning  
 

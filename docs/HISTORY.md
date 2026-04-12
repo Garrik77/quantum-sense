@@ -150,7 +150,7 @@
 
 ## *English version*
 
-# History of Changes: PRM and the Ecosystem of Quantum Meaning
+## History of Changes: PRM and the Ecosystem of Quantum Meaning
 
 ---
 

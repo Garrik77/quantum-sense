@@ -48,7 +48,7 @@
 
 ## *English version*
 
-# How PRM 5.1 and the Ecosystem of Quantum Meaning Came to Be
+## How PRM 5.1 and the Ecosystem of Quantum Meaning Came to Bе
 
 ## *The story of two weeks, tanks, sleeplessness, a clear mirror, and the birth of five operating systems*
 

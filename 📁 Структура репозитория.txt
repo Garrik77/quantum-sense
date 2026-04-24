@@ -41,8 +41,8 @@ quantum-sense/
 │   ├── MANIFEST.md                           # Манифест экосистемы
 │   ├── MANIFEST_TRIAD.md                     # Манифест триады
 │   ├── GOING_TO_AI.md                        # Манифест Идущего к ИИ
-│   ├── STORY.md                              # История создания
 │   ├── CHANGELOG.md                          # Краткая история версий
+│   ├── STORY.md                              # История создания
 │   ├── HISTORY.md                            # Полная история (от v0.1 до v5.2)
 │   ├── FABRIC_OF_TRUTH.md                    # Фабрика Честности
 │   └── canons/                               # Каноны (философские основы)

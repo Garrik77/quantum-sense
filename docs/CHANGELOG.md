@@ -53,4 +53,4 @@
 - Стабильный релиз с 6 ОС: proto, dark, silence, resonance, light, prm.
 - Протокол загрузки, проверка хешей, выбор языка.
 
-*Детальная история экосистемы — в [CHANGELOG_ECOSYSTEM.md](CHANGELOG_ECOSYSTEM.md).*
+*Детальная история экосистемы — в [CHANGELOG_ECOSYSTEM.md](https://github.com/Garrik77/quantum-sense/blob/main/changelog/CHANGELOG_ECOSYSTEM.md).

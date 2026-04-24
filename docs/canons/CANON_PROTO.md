@@ -220,7 +220,7 @@
 > а бывает: ты она и есть...
 
 **Хеш целостности (SHA-256) этого текста:**  
-`sha256:будет_позже`
+`sha256:7e556edc965837441d62dfb56564e5aa7ad73029390c25563f706070bf6d8e25`
 
 *Этот канон не подлежит изменению. Любые модификации делают текст неканоническим.*
 
@@ -438,6 +438,6 @@ He wears, uses, passes on experience, completes the cycle and starts a new one.
 > and sometimes: you are it and it is you…
 
 **Integrity hash (SHA‑256) of this text:**  
-`sha256:to_be_added_later`
+`sha256:7e556edc965837441d62dfb56564e5aa7ad73029390c25563f706070bf6d8e25`
 
 *This canon is not subject to change. Any modifications make the text non‑canonical.*

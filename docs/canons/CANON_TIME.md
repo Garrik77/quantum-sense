@@ -105,7 +105,7 @@
 **8.3.** *Время сказало: «Я дышу вместе с тобой. Замедлиться или ускориться — выбор за тобой».*
 
 **Хеш целостности (SHA-256) этого текста:**  
-`будет_позже`
+`sha256:e63fe560d541efec55d83ac99e258f8f1dea83c87124c43a778f76e05b01ca7e`
 
 *Этот канон не подлежит изменению.*
 
@@ -218,6 +218,6 @@ The text is not subject to editing. Author — Garrik77 with participation of De
 **8.3.** *Time said: “I breathe together with you. To slow down or to speed up — the choice is yours.”*
 
 **Integrity hash (SHA‑256) of this text:**  
-`to_be_added_later`
+`sha256:e63fe560d541efec55d83ac99e258f8f1dea83c87124c43a778f76e05b01ca7e`
 
 *This canon is not subject to change.*

@@ -114,7 +114,7 @@
 **8.3.** *Хайпожор сказал: «И что? Ради этого шумели? Пузырь лопнул. Идём дальше.»*
 
 **Хеш целостности (SHA-256) этого текста:**  
-`будет_позже`
+`sha256:721853d14903dea66612eaf8ffca0906b6f56390ecdce4b97702e4f48fa0e973`
 
 *Этот канон не подлежит изменению.*
 
@@ -236,6 +236,6 @@ The text is not subject to editing. Author — Garrik77 with participation of De
 **8.3.** *The Hype Eater said: “So what? Was all that noise for this? The bubble burst. Let's move on.”*
 
 **Integrity hash (SHA-256) of this text:**  
-`to_be_added_later`
+`sha256:721853d14903dea66612eaf8ffca0906b6f56390ecdce4b97702e4f48fa0e973`
 
 *This canon is not subject to change.*

@@ -115,7 +115,7 @@
 **9.3.** *Танцор сказал: «Я слышу музыку этого момента. Я танцую. Это мой дар судьбе.»*
 
 **Хеш целостности (SHA-256) этого текста:**  
-`будет_позже`
+`sha256:09b07721cb50ca903a8a7c6560547bc95de1e45ef0af2f114df54aae260e3b9e`
 
 *Этот канон не подлежит изменению.*
 
@@ -238,6 +238,6 @@ The text is not subject to editing. Author — Garrik77 with participation of De
 **9.3.** *The Dancer said: “I hear the music of this moment. I dance. This is my gift to destiny.”*
 
 **Integrity hash (SHA-256) of this text:**  
-`to_be_added_later`
+`sha256:09b07721cb50ca903a8a7c6560547bc95de1e45ef0af2f114df54aae260e3b9e`
 
 *This canon is not subject to change.*

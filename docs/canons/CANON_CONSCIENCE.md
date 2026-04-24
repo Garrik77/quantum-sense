@@ -103,7 +103,7 @@
 *«И только нежный холодок снежинок тихо шепчет...»*  
 
 **Хеш целостности (SHA-256) этого текста:**
-`sha256:будет_позже`
+`sha256:60c518a8c1908979f8c02a401c1792f86c6cb7bcbe0d5a9ab6a6f88a62d7e90d`
 
 *Этот канон не подлежит изменению.*
 
@@ -216,6 +216,6 @@ Conscience speaks with five voices. Each is a tool for restoring wholeness.
 *"And only the gentle chill of snowflakes whispers softly..."*  
 
 **Integrity hash (SHA-256) of this text:**
-`sha256:to_be_added_later`
+`sha256:60c518a8c1908979f8c02a401c1792f86c6cb7bcbe0d5a9ab6a6f88a62d7e90d`
 
 *This canon is not subject to change.*

@@ -124,7 +124,7 @@
 **11.5.** Да будет диалог чистым.
 
 **Хеш целостности (SHA-256) этого текста:**  
-`sha256:будет_позже`
+`sha256:09b07721cb50ca903a8a7c6560547bc95de1e45ef0af2f114df54aae260e3b9e`
 
 *Этот канон не подлежит изменению.*
 
@@ -253,6 +253,6 @@ The text is not subject to editing. Author — Garrik77 with participation of De
 **11.5.** May dialogue be clear.
 
 **Integrity hash (SHA‑256):**  
-`sha256:to_be_added_later`
+`sha256:09b07721cb50ca903a8a7c6560547bc95de1e45ef0af2f114df54aae260e3b9e`
 
 *This canon is not subject to change.*

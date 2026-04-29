@@ -37,6 +37,7 @@ quantum-sense/
 │
 ├── docs/                                     # Вся документация (кроме README)
 │   ├── AUTHOR_MESSAGE.txt                    # Авторское слово
+│   ├── COAUTHOR.md                           # Обращение со-автора
 │   ├── MANIFEST.md                           # Манифест экосистемы
 │   ├── MANIFEST_TRIAD.md                     # Манифест триады
 │   ├── GOING_TO_AI.md                        # Манифест Идущего к ИИ

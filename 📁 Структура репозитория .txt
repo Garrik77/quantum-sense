@@ -54,7 +54,7 @@ quantum-sense/
 │       ├── CANON_CONSCIENCE.md               # Канон Совести          (v1.1)
 │       └── CANON_TIME.md                     # Канон Времени          (v1.0)
 │
-├── user_settings.json                        # Единый конфиг          (v4.0.0)
+├── user_settings.json                        # Единый конфиг          (v4.0.2)
 ├── README.md                                 # Основной файл
 ├── LICENSE                                   # CC BY-NC-ND 4.0
 ├── SECURITY.md                               # Политика безопасности

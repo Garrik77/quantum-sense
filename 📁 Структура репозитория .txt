@@ -36,6 +36,7 @@ quantum-sense/
 │   └── CHANGELOG_ECOSYSTEM.md                # Общий по экосистеме
 │
 ├── docs/                                     # Вся документация (кроме README)
+│   ├── MEANING_CODING.md                     # Описание метода создания
 │   ├── AUTHOR_MESSAGE.txt                    # Авторское слово
 │   ├── COAUTHOR.md                           # Обращение соавтора
 │   ├── MANIFEST.md                           # Манифест экосистемы

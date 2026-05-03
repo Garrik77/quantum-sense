@@ -1,22 +1,22 @@
 quantum-sense/
-├── cores/                                    # Ядра всех 15 операционных систем
-│   ├── core_proto.json                       # Протоуровень            (v1.6.0)
-│   ├── core_dark.json                        # Темнота                 (v1.7.0)
-│   ├── core_silence.json                     # Тишина                  (v2.3.0)
-│   ├── core_resonance.json                   # Резонанс                (v1.4.0)
-│   ├── core_light.json                       # Свет                    (v1.5.0)
-│   ├── core_prm.json                         # PRM                     (v5.5.0)
-│   ├── core_critic.json                      # Критик                  (v3.3.0)
-│   ├── core_desire.json                      # Желание                 (v2.3.0)
-│   ├── core_direction.json                   # Направление             (v1.3.0)
-│   ├── core_time.json                        # Время                   (v1.2.0)
-│   ├── core_child.json                       # Ребёнок                 (v1.5.0)
-│   ├── core_destiny.json                     # Судьба                  (v1.2.0)
-│   ├── core_conscience.json                  # Совесть                 (v1.1.0)
-│   ├── core_love.json                        # Любовь                  (v1.1.0)
-│   └── core_goodness.json                    # Добро                   (v1.1.0)
+├── holons/                                    # Все 15 холонов
+│   ├── holon_proto.json                       # Протоуровень            (v1.7.0)
+│   ├── holon_dark.json                        # Темнота                 (v1.8.0)
+│   ├── holon_silence.json                     # Тишина                  (v2.4.0)
+│   ├── holon_resonance.json                   # Резонанс                (v1.5.0)
+│   ├── holon_light.json                       # Свет                    (v1.6.0)
+│   ├── holon_prm.json                         # PRM                     (v5.6.0)
+│   ├── holon_critic.json                      # Критик                  (v3.4.0)
+│   ├── holon_desire.json                      # Желание                 (v2.4.0)
+│   ├── holon_direction.json                   # Направление             (v1.4.0)
+│   ├── holon_time.json                        # Время                   (v1.3.0)
+│   ├── holon_child.json                       # Ребёнок                 (v1.6.0)
+│   ├── holon_destiny.json                     # Судьба                  (v1.3.0)
+│   ├── holon_conscience.json                  # Совесть                 (v1.2.0)
+│   ├── holon_love.json                        # Любовь                  (v1.2.0)
+│   └── holon_goodness.json                    # Добро                   (v1.2.0)
 │
-├── changelog/                                # История изменений (детальная по ОС)
+├── changelog/                                # История изменений (детальная по холонам)
 │   ├── CHANGELOG_proto.md
 │   ├── CHANGELOG_dark.md
 │   ├── CHANGELOG_silence.md
@@ -37,12 +37,11 @@ quantum-sense/
 │
 ├── docs/                                     # Вся документация (кроме README)
 │   ├── AUTHOR_MESSAGE.txt                    # Авторское слово
-│   ├── COAUTHOR.md                           # Обращение со-автора
+│   ├── COAUTHOR.md                           # Обращение соавтора
 │   ├── MANIFEST.md                           # Манифест экосистемы
 │   ├── MANIFEST_TRIAD.md                     # Манифест триады
 │   ├── GOING_TO_AI.md                        # Манифест Идущего к ИИ
 │   ├── STORY.md                              # История создания
-│   ├── CHANGELOG.md                          # Краткая история версий
 │   ├── HISTORY.md                            # Полная история (от v0.1 до v5.2)
 │   ├── FABRIC_OF_TRUTH.md                    # Фабрика Честности
 │   └── canons/                               # Каноны (философские основы)
@@ -54,7 +53,8 @@ quantum-sense/
 │       ├── CANON_CONSCIENCE.md               # Канон Совести          (v1.1)
 │       └── CANON_TIME.md                     # Канон Времени          (v1.0)
 │
-├── user_settings.json                        # Единый конфиг          (v4.0.2)
+├── CHANGELOG.md                              # Краткая история версий
+├── user_settings.json                        # Единый конфиг          (v4.1.0)
 ├── README.md                                 # Основной файл
 ├── LICENSE                                   # CC BY-NC-ND 4.0
 ├── SECURITY.md                               # Политика безопасности

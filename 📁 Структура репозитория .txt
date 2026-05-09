@@ -14,7 +14,8 @@ quantum-sense/
 │   ├── holon_destiny.json                     # Судьба                  (v1.3.0)
 │   ├── holon_conscience.json                  # Совесть                 (v1.2.0)
 │   ├── holon_love.json                        # Любовь                  (v1.2.0)
-│   └── holon_goodness.json                    # Добро                   (v1.2.0)
+│   ├── holon_goodness.json                    # Добро                   (v1.2.0)
+│   └── holon_void.json                        # Пустота                 (v1.0.0)
 │
 ├── changelog/                                # История изменений (детальная по холонам)
 │   ├── CHANGELOG_proto.md

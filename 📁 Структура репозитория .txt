@@ -58,6 +58,4 @@ quantum-sense/
 ├── CHANGELOG.md                              # Краткая история версий
 ├── user_settings.json                        # Единый конфиг          (v4.1.0)
 ├── README.md                                 # Основной файл
-├── LICENSE                                   # CC BY-NC-ND 4.0
-├── SECURITY.md                               # Политика безопасности
-└── .gitignore
+└── LICENSE                                   # CC BY-NC-ND 4.0
